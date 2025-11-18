@@ -1,0 +1,64 @@
+/* Background */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: gellix;
+  list-style: none;
+  text-decoration: none;
+}
+
+.background {
+  background: url("https://images.unsplash.com/photo-1506744038136-46273834b3fb")
+    no-repeat center center/cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* White Box */
+.login-box {
+  width: 669;
+  height: 480;
+  background: white;
+  border-radius: 12px;
+  padding: 40px;
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+}
+
+/* QR Section */
+
+.qr-section {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.logo {
+    text-align: center;
+  width: 150px;
+  margin-bottom: 100px;
+}
+
+.qr-code {
+  width: 200px;
+  margin-bottom: 15px;
+}
+
+.qr-section p {
+  font-size: 16px;
+  color: #444;
+}
+
+/* Phone Section */
+.phone {
+  width: 250px;
+  border-radius: 20px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
